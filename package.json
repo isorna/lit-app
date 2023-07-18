@@ -1,0 +1,24 @@
+{
+  "name": "lit-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@lit-labs/context": "^0.3.3",
+    "@lit-labs/motion": "^1.0.3",
+    "@lit-labs/router": "^0.1.1",
+    "@lit-labs/task": "^2.1.2",
+    "@lit/localize": "^0.11.4",
+    "lit": "^2.7.2"
+  },
+  "devDependencies": {
+    "@lit/localize-tools": "^0.6.9",
+    "@web/dev-server-legacy": "^2.0.0",
+    "vite": "^4.3.9"
+  }
+}
